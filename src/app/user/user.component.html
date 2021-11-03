@@ -1,0 +1,41 @@
+<div class="container mt-3">
+  <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+          <div class="col-md-right">
+              
+          </div>
+          <div class="form-group">
+              <input type="email" class="form-control" id="title" placeholder="Enter Name" [(ngModel)]="title">
+          </div>
+          <div class="col-md-auto">
+            <button type="button" class="btn btn-primary" (click)="search()">Search</button>
+            <h6 class="btn btn-primary">
+                <a [routerLink]="['/patient/new']">Register Patient</a>
+            </h6>
+        </div>
+      </div>
+      
+  </div>
+  <div class="row">
+      <table class="table table-dark">
+          <thead>
+              <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">UUID</th>
+                  <th scope="col">Display</th> 
+                
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let patient of searchResults;let i=index">
+                  <th scope="row">{{i+1}}</th> 
+                  <td> <a [routerLink]="['/patient',patient.uuid]">{{patient.uuid}}</a></td>
+                  <td>{{patient.display}}</td>
+                  <td>{{patient.links.rel}}</td>
+                  <td>{{patient.links.uri}}</td>
+              </tr>
+            </tbody>
+      </table>
+      <p *ngIf="isResultEmpty == true">No Results Found. <a [routerLink]="['/patient/new']"><button class="btn btn-primary" >Register Patient?</button></a></p>
+  </div>
+</div>

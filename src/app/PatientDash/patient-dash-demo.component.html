@@ -1,0 +1,66 @@
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Patient Information</h1>
+            </div>
+            <div class="col-md-9">
+                <table id="pat-info" class="table table-dark">
+                    <tr>
+                        <td>ID</td>
+                        <td>{{id}}</td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td>{{firstName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>{{lastName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>{{dateOfBirth}}</td>
+                    </tr>
+                    <tr>
+                        <td>CNIC</td>
+                        <td>{{cnic}}</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td class="row-alternate">
+                            <table class="table table-dark">
+                                <tr *ngFor="let item of Address | keyvalue">
+                                    <td>{{item.key}}</td>
+                                    <td>{{item.value}}</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>{{city}}</td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>{{country}}</td>
+                    </tr>
+                    <tr>
+                        <td>Postal Code</td>
+                        <td>{{postalCode}}</td>
+                    </tr>
+                </table>
+                <a [routerLink]="['/patient/'+id+'/edit']"><button class="btn btn-info btn-fill pull-right btn-lg">Edit</button></a>
+                <div *ngIf="!isVisitStarted">
+                    <button class="btn btn-info pull-right btn-lg" (click) = "startVisit()">Start Visit</button>
+                    <select name="location" id="location" [(ngModel)]="location" class="pull-right fat">
+                        <option value="">Select Location</option>
+                    </select>
+                </div>
+                    
+                <button class="btn btn-info pull-right btn-lg" (click) = "endVisit()" *ngIf="isVisitStarted">End Visit</button>
+                
+            </div>
+        </div>
+    </div>
+</div>

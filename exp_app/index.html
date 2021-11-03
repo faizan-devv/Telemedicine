@@ -1,0 +1,64 @@
+ 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat APP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row h-100">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="row w-100 videos">
+                    <div class="col-md-12 col-sm-6">
+                        <div class="video-cont">
+                            You
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <video class="embed-responsive-item" muted></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="video-cont">
+                            Them
+                            <div id="peerDiv" class="embed-responsive embed-responsive-16by9"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 d-flex justify-content-center" id="board">
+                <canvas class="whiteboard" id="myCanvas" style="height: 100vh;"></canvas>
+
+                <div class="colors">
+                    <div class="color black"></div>
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                    <div class="color yellow"></div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex flex-column h-100">
+                <div class="row justify-content-center">
+                    <div class="p-3">CHAT</div>
+                </div>
+                <div class="row flex-grow-1 flex-column flex-flow-column" id="msg-box" style="overflow: auto;">
+                </div>
+                <div class="row">
+                    <form class="form-inline w-100 form-group">
+                        <div class="col-md-8 col-xs-8">
+                            <textarea name="msg" id="msg" rows="3" class="form-control" id="msg" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <button class="btn btn-info btn-block h-100" id="send-msg">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="bundle.js"></script>
+</body>
+</html>

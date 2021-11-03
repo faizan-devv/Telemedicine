@@ -1,0 +1,61 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col">
+        <div class="panel">
+
+          <div class="panel-heading">
+            <h2>Visit</h2>
+          </div>
+          
+          <div class="panel-body">
+            <h3>{{visit['display']}}</h3>
+            <p>UUID: {{visit['uuid']}}</p>
+            <table class="table table-dark">
+              <thead>
+                <tr>
+                  <td><b>Topic</b></td>
+                  <td><b>Details</b></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Patient</td>
+                  <td><a [routerLink]="['/patient/' + visit['patient']['uuid']]">{{visit['patient']['display']}}</a></td>
+                </tr>
+                <tr>
+                  <td>Visit Type</td>
+                  <td>{{visit['visitType']['display']}}</td>
+                </tr>
+                <tr>
+                  <td>Start Date & Time</td>
+                  <td>{{visit['startDatetime']}}</td>
+                </tr>
+                <tr>
+                  <td>End Date & Time</td>
+                  <td>{{visit['stopDatetime'] != null ? visit['stopDatetime'] : "VISIT NOT ENDED YET"}}</td>
+                </tr>
+                <tr>
+                  <td>Observations</td>
+                  <td>
+                    <table class="">
+                      <tr *ngFor="let item of observations">
+                        <td>{{ item }}</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button *ngIf="!visit['stopDatetime']" class="btn btn-danger btn-lg" (click)="stopVisit()">Stop Visit</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

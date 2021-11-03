@@ -1,0 +1,790 @@
+.body{
+	margin:0;
+	padding:0;
+}
+.activeproblem1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	margin-top: 100px;
+	margin-left: 25px;
+	
+}
+.activeproblem2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.activeproblem2 img{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.activeproblem2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+
+.allergies1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	left: 375px;
+	bottom: 175px;
+}
+.allergies2{
+	border:solid 1px #C0C0C0;
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.allergies2 img{
+	height: 13px;
+	width: 13px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.allergies2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+
+#plus{
+	border:solid 1px #C0C0C0;
+	height: 18px;
+	width: 25px;
+	position: relative;
+	bottom: 372px;
+	left: 665px;
+	background-color: white;
+}
+
+#plus img{
+	height: 13px;
+	width: 13px;
+	margin-left: 6px;
+	margin-top: 2px;
+}
+
+#plus1 a:hover{
+	background-color: grey;
+}
+.activemedication1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	left: 725px;
+	bottom: 370px;
+}
+.activemedication2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.activemedication2 img{
+	height: 13px;
+	width: 13px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.activemedication2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+
+.recentvisits1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	margin-left: 25px;
+	position: relative;
+	bottom: 325px;
+}
+.recentvisits2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.recentvisits2 img{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.recentvisits2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+.recentvisits2 hr{
+	color: #C0C0C0;
+	margin-top: 65px;
+}
+.laborders1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	margin-left: 375px;
+	position: relative;
+	bottom: 500px;
+}
+.laborders2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.laborders2 img{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.laborders2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+
+.patientappointments1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	left: 725px;
+	bottom: 675px;
+}
+.patientappointments2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.patientappointments2 img{
+	height: 14px;
+	width: 14px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.patientappointments2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+.patientsurgeries1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 130px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	left: 725px;
+	bottom: 629px;
+}
+.patientsurgeries2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:330px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.patientsurgeries2 img{
+	height: 14px;
+	width: 14px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.patientsurgeries2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+.vitals1{
+	border:solid 1px #C0C0C0;
+	width:100px;
+	height: 100px;
+	padding-right: 480px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	margin-top: 96px;
+	margin-left: 25px;
+	position: relative;
+	bottom: 900px;	
+}
+.vitals2{
+	border:solid 1px #C0C0C0;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 32px;
+	right: 101px;
+	width:680px;
+	height: 30px;
+	padding-bottom: 4px;
+
+}
+.vitals2 img{
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.vitals2 p{
+	position: relative;
+	bottom: 21px;
+	left: 29px;
+	font-size: 13px;
+	font-weight: 10;
+}
+.actionlist1{
+	border:solid 1px #C0C0C0;
+	width: 5px;
+	height: 410px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	bottom: 1547px;
+	left:1070px;
+}
+.actionlist2{
+	border:unset;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 14px;
+	right: 100px;
+	width:205px;
+	height: 26px;
+	padding-bottom: 5px;
+}
+.actionlist2 p{
+	position: relative;
+	top: 9px;
+	left: 15px;
+	font-size: 14px;
+	font-weight: 10;
+}
+
+.chiefcomplaint{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1990px;
+	left:981px;
+}
+.chiefcomplaint img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 2px;
+	
+}
+.chiefcomplaint a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.chiefcomplaint a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.vision{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1960px;
+	left:981px;
+}
+.vision img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.vision a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.vision a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.bcva{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1930px;
+	left:981px;
+}
+.bcva img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.bcva a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.bcva a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.iop{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1900px;
+	left:981px;
+}
+.iop img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.iop a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.iop a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+
+.oapthalmicexam{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1870px;
+	left:981px;
+}
+.oapthalmicexam img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.oapthalmicexam a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.oapthalmicexam a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.diagnoses{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1840px;
+	left:981px;
+}
+.diagnoses img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.diagnoses a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.diagnoses a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.treatmentplan{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1810px;
+	left:981px;
+}
+.treatmentplan img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.treatmentplan a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.treatmentplan a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.placeanorder{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1780px;
+	left:981px;
+}
+.placeanorder img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.placeanorder a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.placeanorder a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+
+.vitals{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1750px;
+	left:981px;
+}
+.vitals img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.vitals a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.vitals a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.visitnotes{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1720px;
+	left:981px;
+}
+.visitnotes img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.visitnotes a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.visitnotes a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.requestsurgery{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1689px;
+	left:981px;
+}
+.requestsurgery img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.requestsurgery a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.requestsurgery a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.generalactions1{
+	border:solid 1px #C0C0C0;
+	width: 5px;
+	height: 77px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 73px;
+	position: relative;
+	bottom: 1647px;
+	left:1070px;
+}
+.generalactions2{
+	border:unset;
+	background-color: #E8E8E8;
+	position: relative;
+	bottom: 14px;
+	right: 100px;
+	width:205px;
+	height: 26px;
+	padding-bottom: 5px;
+}
+.generalactions2 p{
+	position: relative;
+	top: 9px;
+	left: 15px;
+	font-size: 14px;
+	font-weight: 10;
+}
+
+.startvisit{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1767px;
+	left:981px;
+}
+.startvisit img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.startvisit a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.startvisit a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+.newappointment{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1737px;
+	left:981px;
+}
+.newappointment img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.newappointment a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.newappointment a:hover{
+	background-color: #5D92E1;
+	color: white;
+}
+
+.endvisit{
+	position: relative;
+	width: 100px;
+	height: 10px;
+	bottom: 1709px;
+	left:981px;
+}
+.endvisit img{
+	height: 16px;
+	width: 16px;
+	position: relative;
+	top: 3px;
+}
+.endvisit a{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	width: 196px;
+	height: 20px;
+	left: 90px;
+	padding-left: 9px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	font-size: 14px;
+}
+.endvisit a:hover{
+	background-color: #5D92E1;
+	color: white;
+}

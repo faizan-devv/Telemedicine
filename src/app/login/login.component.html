@@ -1,0 +1,16 @@
+<div class="login-form">
+  <div class="alert alert-danger" *ngIf="!isLoginSuccess">Incorrect Username and/or Password</div>
+  <form>
+      <h2 class="text-center">Admin Log in</h2>       
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Username" required="required" name="username" [(ngModel)]="username">
+      </div>
+      <div class="form-group">
+          <input type="password" class="form-control" placeholder="Password" required="required" name="password" [(ngModel)]="password">
+      </div>
+      <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block" (click)="login()">Log in</button>
+      </div>      
+      <a [routerLink]="['/patientportal/login']" class="text-center" style="display: block;">Are you a Patient?</a>
+  </form>
+</div>

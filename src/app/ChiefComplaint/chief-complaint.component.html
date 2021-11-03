@@ -1,0 +1,42 @@
+<div class="main-content" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="header">
+                        <div class="alert alert-danger" *ngIf="noVisit">
+                            No Visit decalred yet!
+                        </div>
+                        <p>Patient ID: <a [routerLink] = "['/patient', patient_id]"><b style="text-decoration: underline;">{{ patient_id }}</b></a></p>
+                        <h4 class="title">Cheif Complaint</h4>
+                    </div>
+                    <div class="content">
+                        <form>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Cheif Complaint</label>
+                                        <input type="text" class="form-control" placeholder="" value="" name="cc" [(ngModel)]="cc">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>History of Present Illness</label>
+                                        <input type="text" class="form-control" placeholder="" value="" name="hpi" [(ngModel)]="hpi">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a target="_blank" (click)="startCall()">
+                                <button class="btn btn-success pull-right" *ngIf="isUpdated">Start Call</button>
+                            </a>
+                            <button class="btn btn-info btn-fill pull-right" (click)="this.getCcHpi()">Update Profile</button>
+                            <div class="clearfix"></div>
+                        </form
+                        >
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+    </div>
+</div>

@@ -1,0 +1,104 @@
+
+/**
+ * Fix user-agent
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+textarea {
+  width: 100% !important;
+  resize: none;
+}
+
+/**
+ * Canvas
+ */
+
+.whiteboard {
+  height: 100%;
+  width: 100%;
+  background: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.colors {
+  position: fixed;
+}
+
+.color {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.color.black { background-color: black; }
+.color.red { background-color: red; }
+.color.green { background-color: green; }
+.color.blue { background-color: blue; }
+.color.yellow { background-color: yellow; }
+
+.msg-entry {
+  font-weight: normal;
+  padding: 7px 15px;
+  background: white;
+  border-radius: 7px;
+  color: black;
+  overflow-wrap: break-word;
+}
+
+.msg {
+  margin: 5px;
+  max-width: 80%;
+}
+
+.msg.self-msg {
+  align-self: flex-start;
+}
+
+.msg.other-msg {
+  align-self: flex-end;
+}
+
+#msg-box {
+  padding-right: 15px;
+}
+
+.flex-flow-column {
+  flex-flow: column;
+}
+
+.video-cont {
+  display: block;
+  padding: 10px;
+  background-color: white;
+  color: #111;
+  border-radius: 15px;
+}
+
+.videos > div {
+  align-self: center;
+  margin: 0;
+}

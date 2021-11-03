@@ -1,0 +1,7 @@
+.badge {
+    border-radius: 0.4rem;
+}
+
+.badge-danger {
+    background-color: red;
+}
